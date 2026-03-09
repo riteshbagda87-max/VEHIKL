@@ -32,19 +32,27 @@ background-color: rgb(20, 20, 70);
     font-size: 14PX;
 
 }
-
+.web h3 span{
+    color: orangered;
+}
+.web h1{
+    line-height: 1;
+    padding-bottom: 30px;
+}
 .web {
     text-align: center;
-    padding-top: 10rem;
-    padding-bottom: 30rem;
+    height: 700px;
     color: aliceblue;
     font-size: 31px;
     z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .web {
-    height: 100%;
-    width: 100%;
+   
     background-image: url(images/group.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -109,4 +117,18 @@ padding: 100px 152px;
 }
 .aap p{
     color: rgba(20, 20, 70, 0.601)
+}
+.clients {
+    color: white;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 200px 500px 100px 500px;
+}
+
+.clients p{
+    color: rgba(246, 223, 223, 0.682);
+    padding-top: 10px;
 }
