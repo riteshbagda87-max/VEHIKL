@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+#wrapper{
+background-color: rgb(20, 20, 70);
+}
+.upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+    background-color: rgb(20, 20, 70);
+}
+
+.vehikl {
+    display: flex;
+}
+
+.vehikl img {
+    height: 40px;
+    width: 167px;
+
+}
+
+.list a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 8PX;
+    font-size: 14PX;
+
+}
+
+.web {
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 30rem;
+    color: aliceblue;
+    font-size: 31px;
+    z-index: 0;
+}
+
+.web {
+    height: 100%;
+    width: 100%;
+    background-image: url(images/group.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 0;
+    top: 0px;
+
+}
+.web::after{
+content: "";
+width: 100%;
+height: 100%;
+background-color: rgba(20, 20, 70, 0.601);
+position: absolute;  
+top: 0;
+left: 0;
+z-index: -1;
+}
+
+.web button{
+    border: 1px solid;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 199, 0);
+    color:white;
+}
+/*========================(what)===================*/
+.what{
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    
+}
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.line2{
+    border: 2px solid orangered;
+    width: 50px;
+}
+.what p{
+    padding: 15px 477px;
+    
+}
+.appimg img{
+    height: 340px;
+    width: 570px;
+        
+}
+.app{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.app{
+color: white;  
+padding: 100px 152px;  
+}
+.aap p{
+    color: rgba(20, 20, 70, 0.601)
+}
